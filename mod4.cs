@@ -38,8 +38,9 @@ class Program
 
     static int DivideStrings(string a, string b)
     {
-        int number1 = Convert.ToInt32(a);   // may throw FormatException[web:11]
-        int number2 = Convert.ToInt32(b);   // may throw FormatException[web:11]
+        int number1 = Convert.ToInt32(a);   
+        int number2 = Convert.ToInt32(b);   
         return number1 / number2;
     }
+
 }
